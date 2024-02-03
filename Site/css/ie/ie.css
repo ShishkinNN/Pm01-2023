@@ -1,0 +1,6 @@
+.rating_wh .rating__item{
+	filter: alpha(opacity=20);
+}
+.rating_wh .rating__item_active{
+	filter: alpha(opacity=100);
+}

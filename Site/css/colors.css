@@ -1,0 +1,119 @@
+body { /*# Страница */
+    color: #2e2e2e;
+    background-color: #fff;
+}
+
+a { /*# Ссылки */
+    color: #2ecc71;
+}
+
+.header { /*# Шапка */
+    background-color: #000;
+}
+
+.nav__item a { /*# Пункты меню в шапке */
+    color:#fff;
+}
+
+.nav__item:hover > a,
+.nav__item_active > a { /*# Пункты меню в шапке при наведении */
+    border-color: #f5c432;
+    color: #f5c432;
+}
+
+.nav__popup a:hover { /*# Вложенные пункты меню в шапке */
+    color: #2ecc71;
+}
+.basket { /*# Корзина в шапке */
+    color:#fff;
+} 
+.basket__link,.basket__list { /*# Корзина в шапке */
+    background-color: #2ecc71;
+} 
+
+.basket__item__link { /*# Ссылка товара в корзине */
+    color:#fff;
+}
+
+.basket__footer { /*# Подвал в корзине */
+    border-top: 1px solid #fff;
+}
+
+.order-btn { /*# Кнопка Консультация */
+    background-color: #2ecc71;
+}
+
+.slider__slidenator__item { /*# Навигация в слайдере */
+    background: #fff;
+
+}
+.slider__slidenator__item:hover,
+.slider__slidenator__item_active { /*# Навигация в слайдере активная */
+    background: #2ecc71;
+}
+
+.p-box__item__unit { /*# Товар */
+    color: #fff;
+    background: #2ecc71;
+
+}
+.p-box__item:hover .p-box__item__unit { /*# Товар при наведении */
+    background: #f5c432;
+}
+
+.btn { /*# Кнопки в тексте */
+    border-color: #2ECC71;
+    color: #2E2E2E;
+}
+
+.btn:hover { /*# Кнопки в тексте при наведении */
+    background-color: #2ECC71;
+    color:#fff;
+}
+
+.btn_order,input[type="submit"] { /*# Кнопки в формах */
+    background: #2ecc71;
+    color: #fff;
+}
+
+.btn_order:hover,input[type="submit"]:hover { /*# Кнопки в формах при наведении */
+    background: #f5c432;
+}
+
+.btn_order:active,input[type="submit"]:active { /*# Кнопки в формах при нажатии */
+    background: #d3a724;
+}
+
+.btn_close:hover,
+.btn_close,
+input[type="sumnit"]:disabled,
+.btn_order:disabled { /*# Кнопки в формах не активные */
+    background: #bbc3c6;
+    color: #fff;
+}
+
+.footer { /*# Подвал */
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.footer__menu__link { /*# Пункты меню в подвале */
+    color:#fff;
+}
+
+.sort__item { /*# Пункты меню каталога товаров */
+    color: #2e2e2e;
+}
+.sort__item:hover { /*# Пункты меню каталога товаров при наведении */
+    color: #2ecc71;
+
+}
+.sort__item_active:hover,
+.sort__item_active { /*# Пункты меню каталога товаров активные */
+    color: #fff;
+    background: #2ecc71;
+}
+
+.aside-info { /*# Дополнительная информация в карточке товара */
+    border-color: #d3d3d3;
+}

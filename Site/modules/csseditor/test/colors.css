@@ -1,0 +1,12 @@
+.test { /*# проверяем проверяем */
+    color:#2B32FF;
+    background: #36F536 url(./img/lol.png) no-repeat;
+}
+#test { /*# короткое название */ 
+    background-color: #006400;
+}
+#test, .test { /*# строка */ 	border-color: #774362;
+}
+#csseditor_parser > div > table td:first-child { /*# сложный селектор */
+    color:#FF681C;
+}
